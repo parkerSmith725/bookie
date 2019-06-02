@@ -16,6 +16,10 @@
 .event-page-title{
     font-weight: 900;
 }
+.event-page-price{
+    font-weight: 700;
+    color:#e50082;
+}
 .event-page-date{
     font-weight:400;
     font-size:22px;

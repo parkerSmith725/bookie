@@ -49,6 +49,9 @@ class EventPage extends React.Component{
                                         access_time
                                     </i> <span className="center-text">{event.time} </span>
                                 </span>
+                                <h4 className="event-page-price">
+                                    {event.price}
+                                </h4>
                                 <div className="event-page-desc">
                                     {event.description}
                                 </div>
