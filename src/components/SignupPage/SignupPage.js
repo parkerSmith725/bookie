@@ -27,7 +27,8 @@ class SignupPage extends React.Component{
             email:this.state.email,
             firstName:this.state.firstName,
             lastName:this.state.lastName,
-            type:this.state.isBand
+            type:this.state.isBand,
+            bandName:this.state.bandName
         }).then(() => {
             if(this.state.isBand){
                 this.props.history.push('/events');
@@ -128,6 +129,22 @@ class SignupPage extends React.Component{
                                         />
                                     </div>
                                 </div>
+                                {this.state.isBand && (
+                                    <div className='row signup-row'>
+                                        <div className="col">
+                                            <span className="signup-label">
+                                                Band/DJ Name
+                                            </span>
+                                            <input 
+                                                className="signup-input"
+                                                value={this.state.bandName}
+                                                onChange={this.handleChange}
+                                                name={'bandName'}
+                                                placeholder="Your band/dj name..."
+                                            />
+                                        </div>
+                                    </div>
+                                )}
                                 <div className='row'>
                                     <div style={{textAlign:'right'}} className="col">
                                         <div onClick={this.signup} className="signup-button">Signup</div>
