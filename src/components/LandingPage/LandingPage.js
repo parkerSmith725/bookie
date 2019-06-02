@@ -16,7 +16,7 @@ class LandingPage extends React.Component{
                                 <h1 className="hero-header">
                                     Some cool statement here
                                 </h1>
-                                <Link to='/events'>
+                                <Link to='/signup'>
                                     <div className="hero-button">
                                         Get Started
                                     </div>

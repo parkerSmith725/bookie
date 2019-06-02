@@ -84,6 +84,34 @@ class Router extends React.Component{
             image:'/assets/profile1.jpg',
             time:'7:30 - 10:30, 3 Hours',
             date:'June 16'
+        },{
+            _id:'1234',
+            name:'Lauren Ipsum',
+            eventsCreated:'Lauren has done 2 events on Bookie',
+            reviews:[{
+                name:'A Band',
+                review:`
+                    Lauren was very organized and knew what he was doing
+                `,
+                liked:true
+            }],
+            title:'Friday Night Hip Hop',
+            description:`
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed lacus 
+                tempus, iaculis erat ut, pulvinar ante. Ut consequat, arcu nec venenatis 
+                viverra, diam risus sodales ipsum, eu dictum orci ligula a sem. Duis eu 
+                auctor nunc. Morbi et eros vitae sem ultrices volutpat eu eu orci. Praesent 
+                facilisis nisl eu dui rutrum, sed dapibus massa fringilla. In semper purus 
+                quis suscipit sollicitudin. Donec commodo non est et cursus. In eu varius 
+                felis. Nam tincidunt vel enim in dapibus.
+            `,
+            genre:'DJ',
+            lookingFor:['Hip Hop'],
+            exp:'2',
+            price:'$230',
+            image:'/assets/profile1.jpg',
+            time:'7:30 - 10:30, 3 Hours',
+            date:'June 16'
         }];
     }
 
