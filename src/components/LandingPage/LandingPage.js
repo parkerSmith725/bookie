@@ -14,7 +14,7 @@ class LandingPage extends React.Component{
                         <div className="row hero-row align-items-center">
                             <div className="col-12 hero-col">
                                 <h1 className="hero-header">
-                                    Some cool statement here
+                                <span className="standout">Wake the</span> local music <span className="standout">connection.</span>
                                 </h1>
                                 <Link to='/signup'>
                                     <div className="hero-button">
