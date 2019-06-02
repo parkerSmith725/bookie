@@ -58,7 +58,7 @@
 }
 
 .event-page-button{
-    width:200px;
+    min-width:200px;
     border-radius: 3px;
     padding:20px;
     text-align: center;

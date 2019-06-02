@@ -109,6 +109,22 @@ class BandPage extends React.Component{
                             </div>
                         </div>
                     </div>
+                    <div style={{marginTop:'20px'}} className="row">
+                        <div className="col">
+                            <div className="event-page-CTA">
+                                <div style={{height:'100%'}} className="row align-items-center no-gutters">
+                                    <div style={{textAlign:'center'}} className="col-12">
+                                        <h1 className="event-page-CTA-header">
+                                            Like our sound?
+                                        </h1>
+                                        <div className="event-page-button">
+                                            Book {band.name}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

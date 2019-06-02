@@ -44,7 +44,7 @@ class Router extends React.Component{
             `,
             genre:'DJ',
             types:['Hip hop'],
-            exp:'3',
+            exp:'9',
             image:'/assets/DJProfile.jpg',
             cover:'/assets/DJCover.jpg',
             reviews:[{
