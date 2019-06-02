@@ -22,17 +22,15 @@
 }
 
 .event-button-col{
-    text-align: right;
+    text-align: center;
 }
 
 .event-button{
-    width:200px;
-    border-radius: 3px;
-    padding:10px;
-    text-align: center;
+    cursor: pointer;
+    margin-top:20px;
+    text-align: right;
     font-size:16px;
     font-weight: bold;
-    color:white;
     display: inline-block;
 
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e50082+0,f2002c+100 */
@@ -41,5 +39,7 @@
     background: -webkit-linear-gradient(-45deg,  #e50082 0%,#f2002c 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg,  #e50082 0%,#f2002c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e50082', endColorstr='#f2002c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
