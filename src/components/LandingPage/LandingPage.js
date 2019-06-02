@@ -2,10 +2,13 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './LandingPage.css';
 
+import Header from './../Header/Header';
+
 class LandingPage extends React.Component{
     render(){
         return (
             <div>
+                <Header />
                 <div className="hero-section">
                     <div className="container-fluid hero-container"> 
                         <div className="row hero-row align-items-center">

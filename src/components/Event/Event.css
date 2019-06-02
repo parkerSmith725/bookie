@@ -1,41 +1,36 @@
-.container{
-    
+.event{
+    border:solid 1px lightgrey;
+    padding:20px 40px;
+    position: relative;
+    margin-bottom: 30px;
 }
 
-.hero-section{
-    background-color: black;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    position: absolute;
-    background-image: url('/assets/DJHero.jpg');
-    background-position: center;
-    background-size: cover;
-    z-index: 0;
+.event-name{
+    display: block;
 }
 
-.hero-row,.hero-container{
-    height:100%;
+.event-date{
+    display: block;
 }
 
-.hero-col{
-    text-align: center;
+.event-desc{
+    display: block;
 }
 
-.hero-header{
-    font-size:75px;
-    font-weight: bold;
-    color:white;
-    margin-bottom: 20px;
+.event-price{
+    text-align: right;
 }
 
-.hero-button{
+.event-button-col{
+    text-align: right;
+}
+
+.event-button{
     width:200px;
     border-radius: 3px;
-    padding:20px;
+    padding:10px;
     text-align: center;
-    font-size:18px;
+    font-size:16px;
     font-weight: bold;
     color:white;
     display: inline-block;

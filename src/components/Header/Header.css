@@ -1,50 +1,17 @@
-.container{
-    
+.header-container{
+    z-index: 10;
+    position: relative;
 }
 
-.hero-section{
-    background-color: black;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    position: absolute;
-    background-image: url('/assets/DJHero.jpg');
-    background-position: center;
-    background-size: cover;
-    z-index: 0;
-}
-
-.hero-row,.hero-container{
-    height:100%;
-}
-
-.hero-col{
-    text-align: center;
-}
-
-.hero-header{
-    font-size:75px;
+.logo{
+    font-size:42px;
     font-weight: bold;
-    color:white;
-    margin-bottom: 20px;
-}
-
-.hero-button{
-    width:200px;
-    border-radius: 3px;
-    padding:20px;
-    text-align: center;
-    font-size:18px;
-    font-weight: bold;
-    color:white;
-    display: inline-block;
-
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e50082+0,f2002c+100 */
     background: #e50082; /* Old browsers */
     background: -moz-linear-gradient(-45deg,  #e50082 0%, #f2002c 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg,  #e50082 0%,#f2002c 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg,  #e50082 0%,#f2002c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e50082', endColorstr='#f2002c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
