@@ -4,6 +4,7 @@
 }
 
 .logo{
+    cursor: pointer;
     font-size:42px;
     font-weight: bold;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e50082+0,f2002c+100 */

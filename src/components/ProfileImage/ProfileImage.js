@@ -7,7 +7,7 @@ class ProfileImage extends React.Component{
             backgroundImage:`url(${this.props.image})`
         };
         return (
-            <div className="profile-image" style={style}>
+            <div className={this.props.large ? ('profile-image large') : ('profile-image')} style={style}>
             
             </div>
         );

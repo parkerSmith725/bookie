@@ -6,4 +6,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color:rgba(0,0,0,0.7);
+}
+
+.material-icons,.center-text{
+  vertical-align: middle;
 }

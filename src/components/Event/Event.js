@@ -26,7 +26,7 @@ class Event extends React.Component{
                         <div className="row">
                             <div className="col">
                                 <h1 className="event-name">
-                                    {event.name}
+                                    {event.title}
                                 </h1>
                                 <span className="event-date">
                                     {event.date} {event.time}
@@ -43,6 +43,9 @@ class Event extends React.Component{
                             <div className="col">
                                 <span className="event-title">
                                     Event
+                                </span>
+                                <span className="event-title">
+                                    {event.title}
                                 </span>
                                 <span className="event-desc">
                                     {event.description.substring(0,200)}...

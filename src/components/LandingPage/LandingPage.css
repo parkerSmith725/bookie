@@ -39,6 +39,7 @@
     font-weight: bold;
     color:white;
     display: inline-block;
+    cursor: pointer;
 
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e50082+0,f2002c+100 */
     background: #e50082; /* Old browsers */

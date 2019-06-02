@@ -1,0 +1,24 @@
+.review-star{
+    display: inline-block;
+    width:40px;
+    color:#e50082;
+}
+
+.review-proof{
+    vertical-align: middle;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.review{
+    padding:20px 0px;
+}
+
+.review-band-name{
+    font-weight: 700;
+}
+
+.review-text{
+    font-size:16px;
+    font-weight: 400;
+}

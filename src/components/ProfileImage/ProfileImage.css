@@ -5,3 +5,11 @@
     background-size: cover;
     background-position: center;
 }
+
+.profile-image.large{
+    width:200px;
+    height:200px;
+    border-radius: 200px;
+    background-size: cover;
+    background-position: center;
+}
