@@ -3,6 +3,10 @@
     position: relative;
 }
 
+.header-container.border{
+    border-bottom: solid 1px lightgrey;
+}
+
 .logo{
     cursor: pointer;
     font-size:42px;

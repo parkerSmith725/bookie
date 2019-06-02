@@ -8,7 +8,7 @@ class LandingPage extends React.Component{
     render(){
         return (
             <div>
-                <Header />
+                <Header noBorder />
                 <div className="hero-section">
                     <div className="container-fluid hero-container"> 
                         <div className="row hero-row align-items-center">

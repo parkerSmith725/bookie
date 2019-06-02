@@ -15,7 +15,7 @@ class Header extends React.Component{
 
     render(){
         return (
-            <div className="header-container container-fluid">
+            <div className={this.props.noBorder ? ("header-container container-fluid") : ("border header-container container-fluid")}>
                 <div className="row">
                     <div className="col-6">
                         <span onClick={this.home} className="logo">Bookie</span>

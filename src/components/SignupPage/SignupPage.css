@@ -1,0 +1,62 @@
+.signup-form{
+    max-width: 500px;
+    margin:auto;
+    border:solid 1px lightgrey;
+    padding:20px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.signup-header{
+    
+}
+
+.signup-row{
+    padding:10px 0;
+}
+
+.signup-label{
+    font-size:14px;
+    font-weight: 400;
+}
+
+.signup-input{
+    width:100%;
+    border:solid 1px lightgrey;
+    font-size: 16px;
+    padding:10px;
+}
+
+.signup-select{
+    cursor: pointer;
+    padding:10px 20px;
+    border: solid 1px #f2002c;
+    color:#f2002c;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.signup-select.selected{
+    border: solid 1px #f2002c;
+    background-color: #f2002c;
+    color:white;
+}
+
+.signup-button{
+    border-radius: 3px;
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+    color:white;
+    display: inline-block;
+    cursor: pointer;
+    padding:10px 30px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e50082+0,f2002c+100 */
+    background: #e50082; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #e50082 0%, #f2002c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #e50082 0%,#f2002c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #e50082 0%,#f2002c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e50082', endColorstr='#f2002c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
