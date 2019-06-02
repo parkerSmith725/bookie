@@ -7,6 +7,11 @@ class EventsPage extends React.Component{
     constructor(props){
         super(props);
     }
+    
+    componentDidMount(){
+        window.scrollTo(0,0);
+    }
+
     render(){
         let {events} = this.props;
         return (

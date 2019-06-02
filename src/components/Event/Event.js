@@ -25,11 +25,17 @@ class Event extends React.Component{
                     <div className="col">
                         <div className="row">
                             <div className="col">
-                                <h1 className="event-name">
+                                <h1 className="event-page-title">
                                     {event.title}
                                 </h1>
-                                <span className="event-date">
-                                    {event.date} {event.time}
+                                <span className="event-page-date">
+                                    <i className="material-icons">
+                                        date_range
+                                    </i> <span className="center-text">{event.date}</span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <i className="material-icons">
+                                        access_time
+                                    </i> <span className="center-text">{event.time} </span>
                                 </span>
                                 
                             </div>
